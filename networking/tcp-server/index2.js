@@ -6,7 +6,7 @@ const MAX_MESSAGE_LENGTH = 200;
 
 const server = net.createServer((socket) => {
     console.log("client connected :");
-    console.log(`Total connected client ${clients.size}\n`);
+    console.log(`Total connected client ${clients.sizen}\n`);
 
     socket.write("Welcome to the Nikhil TCP chat~ \n");
     socket.write("Please enter you Name: \n");
